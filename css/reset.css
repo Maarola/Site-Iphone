@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 
 .github {
     color: #eaa80e;

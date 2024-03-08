@@ -2,46 +2,6 @@
 body{
     background-color: #f5f2ea;
 }
-
-header {
-    padding: 0.5rem 4.375rem;
-    background-color: #1d1d1f;
-}
-
-.navigation{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navigation .logo{
-    width: 3.125rem;
-
-}
-
-.navigation ul {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.navigation ul li a {
-    color: #888;
-    font-weight: 600;
-    padding-bottom: 4px;
-    transition: all 0.5s ease-in-out;
-}
-
-.navigation ul li a:hover {
-    color: #fff;
-    border-bottom: 4px solid #fff;
-}
-
-.navigation .ativo{
-    color: #fff;
-    border-bottom: 4px solid #fff;
-}
-
 main section{
     display: flex;
     align-items: center;
@@ -130,7 +90,7 @@ main section{
 }
 
 #red{
-    background-color: #ae0617;
+    background-color: #d8061b;
 }
 
 
