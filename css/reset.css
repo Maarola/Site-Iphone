@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+body{
+    background-color: #dfdcd7;
+}
+
 html{
     overflow-x: hidden;
     overflow-y: hidden;

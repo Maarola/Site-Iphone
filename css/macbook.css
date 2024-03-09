@@ -1,7 +1,4 @@
 
-body{
-    background-color: #c9c6c0;
-}
 main section{
     display: flex;
     align-items: center;
@@ -11,7 +8,7 @@ main section{
 
 .main__text img {
     width: 20rem;
-    margin-bottom: 0.9vh;
+    margin-bottom: 0.4vh;
 }
 .main__text h3 {
     font-size: 3.2rem;
@@ -77,8 +74,8 @@ main section{
 .main__imagem img {
     position: absolute;
     top: 30%;
-    left: 50%;
-    width: 1000px;
+    left: 56%;
+    width: 900px;
     transform: rotate(-7deg);
 }
 
@@ -88,6 +85,6 @@ main section{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #696969;
+    background: #979494;
     clip-path: circle(800px at right 1000px);
 }

@@ -1,71 +1,30 @@
 
-body{
-    background-color: #e8e6e7;
-}
-
-header {
-    padding: 1.25rem 4.375rem;
-    background-color: #1d1d1f;
-}
-
-.navigation{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navigation .logo{
-    width: 3.125rem;
-
-}
-
-.navigation ul {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.navigation ul li a {
-    color: #888;
-    font-weight: 600;
-    padding-bottom: 4px;
-    transition: all 0.5s ease-in-out;
-}
-
-.navigation ul li a:hover {
-    color: #fff;
-    border-bottom: 4px solid #fff;
-}
-
-.navigation .ativo{
-    color: #fff;
-    border-bottom: 4px solid #fff;
-}
-
 main section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5rem 10rem;
+    padding: 15rem 10rem;
 }
 
 .main__text img {
     width: 15rem;
-    margin-bottom: 3vh;
+    margin-bottom: 0vh;
 }
 .main__text h3 {
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 3.2rem;
+    margin-bottom: 0.4rem;
 }
 
 .main__text p{
     margin-bottom: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .main__text h6{
     color: #999;
     font-size: 1rem;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 .main__text .btn{
@@ -107,36 +66,25 @@ main section{
     opacity: .80;
 }
 
-#green{
-    background-color: #384937;
-}
-
-#pink{
-    background-color: #f8ddd6;
-}
-
-#blue{
-    background-color: #225f7e;
-}
-
-#black{
-    background-color: #192028;
-}
-
-#white{
-    background-color: #f7f2ee;
-}
-
-#red{
-    background-color: #ae0617;
-}
-
-
 .main__imagem{
     transition: all 1s ease;
     z-index: 100;
 }
 
 .main__imagem img {
-    width: 500px;
+    position: absolute;
+    top: 23%;
+    left: 55%;
+    width: 800px;
+    transform: rotate(-7deg);
+}
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(243, 248, 247, 0.815);
+    clip-path: circle(800px at right 1000px);
 }
